@@ -1,50 +1,62 @@
 <!DOCTYPE html>
     <html lang = "en">
         <head> 
-            <title>New York Times homepage for ecs 162 HW 1</title>
-            <link rel="stylesheet" href = "stylesheet.css">
+            <title>ECS 162 HW 1</title>
+            <link rel="stylesheet" href="hw1stylesheet.css">
         </head>
         <body>
-            <header class="top_bar">
-                <div id="title"> The New York Times</div>
+            <header class="top-bar">
+                <div id="date">
+                    Monday, April 7, 2025 <br> Today's Paper
+                </div>
+                <div id="logo"> 
+                    <!-- User:Zimbabweed (2007, November 25). Logo of the New York Times. Wikimedia Commons.
+                        -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/The_New_York_Times_logo.png">
+                </div>
                 <nav>
                     <ul id = "desktop-navigation-bar">
                         <li><a href="https://www.nytimes.com/section/us">U.S.</a></li>
                         <li><a href="https://www.nytimes.com/section/world">World</a></li>
                         <li><a href="https://www.nytimes.com/section/business">Business</a></li>
                         <li><a href="https://www.nytimes.com/section/arts">Arts</a></li>
-                        <li><a href="https://www.nytimes.com/section/lifestyle">Lifestyle</a></li>
+                        <li><a href="https://www.nytimes.com/spotlight/lifestyle">Lifestyle</a></li>
                         <li><a href="https://www.nytimes.com/section/opinion">Opinion</a></li>
+                        <div id="line"></div>
                         <!--vertical line separating these sets of categories-->
-                        <li><a href="https://www.nytimes.com/section/audio">Audio</a></li>
-                        <li><a href="https://www.nytimes.com/section/games">Games</a></li>
-                        <li><a href="https://www.nytimes.com/section/cooking">Cooking</a></li>
+                        <li><a href="https://www.nytimes.com/section/spotlight/podcasts">Audio</a></li>
+                        <li><a href="https://www.nytimes.com/section/crosswords">Games</a></li>
+                        <li><a href="https://cooking.nytimes.com/">Cooking</a></li>
                         <li><a href="https://www.nytimes.com/section/wirecutter">Wirecutter</a></li>
                         <li><a href="https://www.nytimes.com/section/athletic">The Athletic</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="columns">
-                <div id="left-column"> 
-                    <div class="secondary-article">
+                <div class="column"> 
+                    <div class="article">
                         <!-- Cansino, A. (2021, March 27). Riot, Protest, Street image. Free for use. Pixabay.com.
                         https://pixabay.com/photos/riot-protest-street-crowd-laws-6129239/
                         -->
                         <img src="https://cdn.pixabay.com/photo/2021/03/27/18/16/riot-6129239_1280.jpg"
                         alt="A riot with smoke in the air" title="filler text">
-                    <div class="article-text">
+                    <div class="article-title">
                         <h2>Article 1</h2>
-                        <p>article 1 filler</p> <!--find out how to put in the filler text from mockup-->
                     </div>
+                    <div class="article-content"><p>article 1 filler</p> <!--find out how to put in the filler text from mockup--></div>
                     <!--use css to draw a line between these two-->
+                    </div>
                     <div class="no-pic-article">
                         <h3>Extra article title</h3>
                         <p>extra article filler</p>
                     </div>
-                    </div>
                 </div>
-                <div id="center-column">
-                    <div class="main-article">
+                <div class="column">
+                    <div class="no-pic-article">
+                        <h3>Extra article title </h3>
+                        <p>extra article filler</p>
+                    </div>
+                    <div class="article">
                         <!--Wurliburli. (2020, April 05). Tornado, Storm, Hurricane image. Free for use. Pixabay.com. 
                         https://pixabay.com/photos/tornado-storm-hurricane-cyclone-5005297/
                         -->
@@ -56,21 +68,21 @@
                     </div>
                     </div>
                 </div>
-                <div id="right-column"> 
-                    <div class="secondary-article">
+                <div class="column"> 
+                    <div class="article">
                         <!-- Quanlecntt2004. (2021, June 8). Worker, Woman, Mask image. Free for use. Pixabay.com.
                         https://pixabay.com/photos/worker-woman-mask-face-mask-6322085/
                         -->
                         <img src="https://cdn.pixabay.com/photo/2021/06/09/01/55/worker-6322085_1280.jpg"
                         alt="Workers in a factory" title="filler text">
-                    <div class="article-text">
-                        <h2>Article 3</h2>
-                        <p>article 3 filler</p> 
+                        <div class="article-title">
+                            <h2>Article 3</h2>
+                        </div>
+                        <div class="article-content"><p>article 3 filler</p> <!--find out how to put in the filler text from mockup--></div>
                     </div>
                     <div class="no-pic-article">
                         <h3>Extra article title </h3>
                         <p>extra article filler</p>
-                    </div>
                     </div>
                 </div>
             </div>
