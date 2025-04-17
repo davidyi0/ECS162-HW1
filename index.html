@@ -3,7 +3,7 @@
         <head> 
             <title>ECS 162 HW 1 NYT copy</title>
             <link rel="stylesheet" href="hw1stylesheet.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width">
         </head>
         <body>
             <!--wrapper covering entire viewport-->
@@ -11,8 +11,8 @@
                 <!--on desktop: logo, date, nav-bar; tablet/mobile: logo only-->
                 <header class="top-bar">
                     <section id="wrapper">
-                        <section id="date">
-                            <strong>Monday, April 7, 2025</strong>
+                        <section id="todays-paper-and-date">
+                            <time id="date"><strong>Monday, April 7, 2025</strong></time>
                             <br> 
                             Today's Paper
                         </section>
@@ -47,10 +47,10 @@
                     <!--desktop: top left article, with picture-->
                     <article class="secondary-article-1"> 
                         <!-- Credits: Cansino, A. (2021, March 27). Riot, Protest, Street image. Free for use. Pixabay.com.
-                        https://pixabay.com/photos/riot-protest-street-crowd-laws-6129239/
+                        https://cdn.pixabay.com/photo/2021/03/27/18/16/riot-6129239_1280.jpg
                         -->
                         <img src="https://cdn.pixabay.com/photo/2021/03/27/18/16/riot-6129239_1280.jpg"
-                        alt="A riot with smoke in the air" title="filler text">
+                        alt="A riot with smoke in the air" title="Riot">
                         <h2 class="article-title">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit? Etiam A Urna Sed Nulla</h2>
                         <p>
                             Aliquam varius faucibus felis, sed aliquet purus condimentum id.
@@ -91,10 +91,10 @@
                     <!--top right article, with picture-->
                     <article class="secondary-article-2"> 
                         <!-- Credits: User: Quanlecntt2004. (2021, June 8). Worker, Woman, Mask image. Free for use. Pixabay.com.
-                        https://pixabay.com/photos/worker-woman-mask-face-mask-6322085/
+                        https://cdn.pixabay.com/photo/2021/06/09/01/55/worker-6322085_1280.jpg
                         -->
                         <img src="https://cdn.pixabay.com/photo/2021/06/09/01/55/worker-6322085_1280.jpg"
-                        alt="Workers in a factory" title="filler text">
+                        alt="Workers in a factory" title="Worker">
                         <h2 class="article-title">Praesent Suscipit Elit Nec Justo Sodales, At Aliquam Nisl Blandit. 
                             Aenean Vulputate Purus Sit
                         </h2>
@@ -118,10 +118,10 @@
                     <!--bottom middle article, with picture-->
                     <article class="main-article-2"> 
                         <!--Credits: User: Wurliburli. (2020, April 05). Tornado, Storm, Hurricane image. Free for use. Pixabay.com. 
-                        https://pixabay.com/photos/tornado-storm-hurricane-cyclone-5005297/
+                        https://cdn.pixabay.com/photo/2020/04/05/09/27/tornado-5005297_1280.jpg
                         -->
                         <img src="https://cdn.pixabay.com/photo/2020/04/05/09/27/tornado-5005297_1280.jpg" 
-                        alt="The aftermath of a hurricane" title="filler text">
+                        alt="The aftermath of a hurricane" title="Hurricane">
                             <h1 class="article-title">Praesent At Urna Vulputate, Lobortis Urna Sit Amet, 
                                 Pulvinar Mollis Nibh Ante, Tempus 
                                 Hendrerit Diam
@@ -149,4 +149,5 @@
                     </article>
                 </section>
             </section>
+            <script src="hw1script.js" defer></script>
         </body>
